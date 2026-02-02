@@ -1,0 +1,51 @@
+
+#main-hero {
+  padding: 90px;
+}
+
+#main-product1 {
+  padding: 50px;
+}
+
+#main-product2 {
+  padding: 50px;
+}
+
+#main-service1 {
+  padding: 50px;
+}
+
+#main-service2 {
+  padding: 50px;
+}
+
+#main-service3 {
+  padding: 50px;
+}
+
+#main-service4 {
+  padding: 50px;
+}
+
+#main-service5 {
+  padding: 50px;
+}
+
+#main-service6 {
+  padding: 50px;
+}
+
+#main-footer {
+  padding: 40px;
+}
+
+#desk-image {
+  display: none;
+  padding: 50px;
+}
+
+@media screen and (min-width: 1200px) {
+  #desk-image {
+    display: block; 
+  }
+}
