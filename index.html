@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <!-- in mobile set initial zoom level of page to 100%, set site size to equal device size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Mobile CSS Grid</title>
+</head>
+    <body>
+        <header class="grid-con center-grid-con">
+             <div id="header-logo" class=" box col-start-1 col-end-4 m-col-start-1 m-col-end-4">
+                <p>Logo</p>
+            </div>
+            <nav id="main-nav" class="box col-start-4 m-col-start-4 m-col-end-13 ">
+                <p>Nav</p>
+            </nav>
+        </header>
+    <main class="grid-con center-grid-con">
+        <div id="main-hero" class="box col-span-full">
+            <p>Hero Image</p>
+        </div>
+        <div id="main-product1" class="box col-span-full ">
+            <p>product 1</p>
+        </div>
+        <div id="main-product2" class="box col-span-full ">
+            <p>Product 2</p>
+        </div>
+        <div id="main-service1" class="box col-span-2">
+            <p>Service 1</p>
+        </div>
+        <div id="main-service2" class="box col-span-2">
+            <p>Service 2</p>
+        </div>
+        <div id="main-service3" class="box col-span-2">
+            <p>Service 3</p>
+        </div>
+        <div id="main-service4" class="box col-span-2">
+            <p>Service 4</p>
+        </div>
+        <div id="main-service5" class="box col-span-2">
+            <p>Service 5</p>
+        </div>
+        <div id="main-service6" class="box col-span-2">
+            <p>Service 6</p>
+        </div>
+        <div id="main-footer" class="box col-start-1 col-end-5">
+                <p>Footer</p>
+        </div>
+    </main>
+        <script src="js/main.js"></script>
+    </body>
+</html>
